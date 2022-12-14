@@ -1,5 +1,5 @@
 <br/>
-<img alt="Extract Media Bot" src="https://user-images.githubusercontent.com/2874236/207464927-f8001c64-ff88-4355-b4cc-7a57dfac3139.svg" width="350" />
+<img alt="Extract Media Bot" src="https://user-images.githubusercontent.com/2874236/207578176-063a298d-d315-4bbe-b4d2-6784ab7565a2.svg" width="350" />
 
 ## Extract Media Telegram Bot
 
