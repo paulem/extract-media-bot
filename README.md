@@ -32,8 +32,8 @@ The bot requires a number of variables to work. For local run they can be set us
 
 | Variable                         | Description                                                                                                                                      |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| `Telegram__BotToken`             | Telegram Bot Token. Use [@BotFather](https://t.me/botfather) to obtain it                                                                        |
-| `Telegram__HostAddress`          | HTTPS URL that Telegram will use to send updates                                                                                                 |
+| `TelegramBot__BotToken`          | Telegram Bot Token. Use [@BotFather](https://t.me/botfather) to obtain it                                                                        |
+| `TelegramBot__HostAddress`       | HTTPS URL that Telegram will use to send updates                                                                                                 |
 |                                  |                                                                                                                                                  |
 | `AllowedUsers__Users__0__UserId` | Telegram ID of the user who will be able to interact with the bot. To get your ID, message [@userinfobot](https://t.me/@userinfobot) on Telegram |
 | ...                              | ...                                                                                                                                              |
@@ -73,7 +73,7 @@ Below is how to add variables using user secrets.
 Run the following command from the directory in which the project file exists:
 
 ```shell
-dotnet user-secrets set "Telegram:BotToken" "<YOUR_BOT_TOKEN>"
+dotnet user-secrets set "TelegramBot:BotToken" "<YOUR_BOT_TOKEN>"
 ```
 
 Repeat the command for all needed variables.
@@ -95,7 +95,7 @@ To run in Docker, you need to set the values of the variables in the `.env` file
 Open the `.env.example` file with a text editor and fill in variable values. Save file as `.env`.
 > Make sure that you save the file with the name `.env`.
 
-Your `Telegram__HostAddress` variable must consist of the HTTPS URL of your server with the specified port.
+Your `TelegramBot__HostAddress` variable must consist of the HTTPS URL of your server with the specified port.
 ```
 TelegramBot__HostAddress=https://mydomain:8443
 ```
